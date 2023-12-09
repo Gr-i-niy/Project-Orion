@@ -37,6 +37,8 @@ partial class GetIpForm
         AutoScaleMode = AutoScaleMode.Font;
         BackColor = Color.Aquamarine;
         ClientSize = new Size(800, 450);
+        this.MinimumSize = this.Size;
+        this.MaximumSize = this.Size;
         Controls.Add(label1);
         this.Shown += (sender, args) => StartServer();
         Name = "GetIpForm";

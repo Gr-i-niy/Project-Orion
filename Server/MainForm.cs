@@ -43,7 +43,7 @@ public partial class MainForm : Form
         Position buttonPosition = new(numInTable % 8, numInTable / 8);
         int a = buttonPosition.Y - buttonPosition.X;
         int b = buttonPosition.Y - buttonPosition.X + 8;
-        for (int i = 0; i < 16; i++)
+        for (int i = 0; i < GlobalVariables.WhiteChessPieces.Count; i++)
         {
             var figure = GlobalVariables.WhiteChessPieces[i];
             if (figure.Pos == buttonPosition)

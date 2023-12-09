@@ -60,6 +60,8 @@ partial class GetIPForm
         AutoScaleMode = AutoScaleMode.Font;
         BackColor = Color.Aquamarine;
         ClientSize = new Size(800, 450);
+        this.MinimumSize = this.Size;
+        this.MaximumSize = this.Size;
         Controls.Add(textBox1);
         Controls.Add(button1);
         Controls.Add(label1);

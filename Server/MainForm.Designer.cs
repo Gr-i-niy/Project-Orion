@@ -59,7 +59,7 @@ partial class MainForm
                     OnClickAction((Button)sender, Int32.Parse(button.Name));
                 button.Margin = Padding.Empty;
                 button.FlatAppearance.BorderSize = 0;
-                if ((col + row) % 2 == 1) button.BackColor = Color.DarkOliveGreen;
+                if ((col + row) % 2 == 0) button.BackColor = Color.DarkOliveGreen;
                 else button.BackColor = Color.LightGoldenrodYellow;
                 chessBoard.Controls.Add(button, col, row);
                 GlobalVariables.ChessBoardButtons.Add(button);
