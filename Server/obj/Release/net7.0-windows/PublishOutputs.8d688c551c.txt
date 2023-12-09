@@ -1,0 +1,30 @@
+C:\Users\admin\Desktop\Project Orion.exe
+C:\Users\admin\Desktop\Project Orion.dll
+C:\Users\admin\Desktop\Project Orion.deps.json
+C:\Users\admin\Desktop\Project Orion.runtimeconfig.json
+C:\Users\admin\Desktop\Project Orion.pdb
+C:\Users\admin\Desktop\ExCSS.dll
+C:\Users\admin\Desktop\LiteNetLib.dll
+C:\Users\admin\Desktop\runtime.osx.10.10-x64.CoreCompat.System.Drawing.dll
+C:\Users\admin\Desktop\Svg.dll
+C:\Users\admin\Desktop\Vanara.Core.dll
+C:\Users\admin\Desktop\Vanara.PInvoke.Cryptography.dll
+C:\Users\admin\Desktop\Vanara.PInvoke.Kernel32.dll
+C:\Users\admin\Desktop\Vanara.PInvoke.P2P.dll
+C:\Users\admin\Desktop\Vanara.PInvoke.Security.dll
+C:\Users\admin\Desktop\Vanara.PInvoke.Shared.dll
+C:\Users\admin\Desktop\Vanara.PInvoke.Ws2_32.dll
+C:\Users\admin\Desktop\fr\Vanara.Core.resources.dll
+C:\Users\admin\Desktop\runtimes\osx-x64\native\libcairo.2.dylib
+C:\Users\admin\Desktop\runtimes\osx-x64\native\libfontconfig.1.dylib
+C:\Users\admin\Desktop\runtimes\osx-x64\native\libfreetype.6.dylib
+C:\Users\admin\Desktop\runtimes\osx-x64\native\libgdiplus-lighthouse.dylib
+C:\Users\admin\Desktop\runtimes\osx-x64\native\libgdiplus.dylib
+C:\Users\admin\Desktop\runtimes\osx-x64\native\libgif.7.dylib
+C:\Users\admin\Desktop\runtimes\osx-x64\native\libglib-2.0.0.dylib
+C:\Users\admin\Desktop\runtimes\osx-x64\native\libintl.8.dylib
+C:\Users\admin\Desktop\runtimes\osx-x64\native\libjpeg.9.dylib
+C:\Users\admin\Desktop\runtimes\osx-x64\native\libpcre.1.dylib
+C:\Users\admin\Desktop\runtimes\osx-x64\native\libpixman-1.0.dylib
+C:\Users\admin\Desktop\runtimes\osx-x64\native\libpng16.16.dylib
+C:\Users\admin\Desktop\runtimes\osx-x64\native\libtiff.5.dylib

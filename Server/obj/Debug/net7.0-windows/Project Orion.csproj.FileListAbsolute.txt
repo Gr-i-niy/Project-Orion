@@ -1,0 +1,119 @@
+C:\Users\admin\RiderProjects\Project Orion\Project Orion\bin\Debug\net7.0-windows\Project Orion.exe
+C:\Users\admin\RiderProjects\Project Orion\Project Orion\bin\Debug\net7.0-windows\Project Orion.deps.json
+C:\Users\admin\RiderProjects\Project Orion\Project Orion\bin\Debug\net7.0-windows\Project Orion.runtimeconfig.json
+C:\Users\admin\RiderProjects\Project Orion\Project Orion\bin\Debug\net7.0-windows\Project Orion.dll
+C:\Users\admin\RiderProjects\Project Orion\Project Orion\bin\Debug\net7.0-windows\Project Orion.pdb
+C:\Users\admin\RiderProjects\Project Orion\Project Orion\obj\Debug\net7.0-windows\Project Orion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\RiderProjects\Project Orion\Project Orion\obj\Debug\net7.0-windows\Project Orion.AssemblyInfoInputs.cache
+C:\Users\admin\RiderProjects\Project Orion\Project Orion\obj\Debug\net7.0-windows\Project Orion.AssemblyInfo.cs
+C:\Users\admin\RiderProjects\Project Orion\Project Orion\obj\Debug\net7.0-windows\Project Orion.csproj.CoreCompileInputs.cache
+C:\Users\admin\RiderProjects\Project Orion\Project Orion\obj\Debug\net7.0-windows\Project Orion.dll
+C:\Users\admin\RiderProjects\Project Orion\Project Orion\obj\Debug\net7.0-windows\refint\Project Orion.dll
+C:\Users\admin\RiderProjects\Project Orion\Project Orion\obj\Debug\net7.0-windows\Project Orion.pdb
+C:\Users\admin\RiderProjects\Project Orion\Project Orion\obj\Debug\net7.0-windows\Project Orion.genruntimeconfig.cache
+C:\Users\admin\RiderProjects\Project Orion\Project Orion\obj\Debug\net7.0-windows\ref\Project Orion.dll
+C:\Users\admin\RiderProjects\Project Orion\Project Orion\bin\Debug\net7.0-windows\ExCSS.dll
+C:\Users\admin\RiderProjects\Project Orion\Project Orion\bin\Debug\net7.0-windows\runtime.osx.10.10-x64.CoreCompat.System.Drawing.dll
+C:\Users\admin\RiderProjects\Project Orion\Project Orion\bin\Debug\net7.0-windows\Svg.dll
+C:\Users\admin\RiderProjects\Project Orion\Project Orion\bin\Debug\net7.0-windows\runtimes\osx-x64\native\libcairo.2.dylib
+C:\Users\admin\RiderProjects\Project Orion\Project Orion\bin\Debug\net7.0-windows\runtimes\osx-x64\native\libfontconfig.1.dylib
+C:\Users\admin\RiderProjects\Project Orion\Project Orion\bin\Debug\net7.0-windows\runtimes\osx-x64\native\libfreetype.6.dylib
+C:\Users\admin\RiderProjects\Project Orion\Project Orion\bin\Debug\net7.0-windows\runtimes\osx-x64\native\libgdiplus-lighthouse.dylib
+C:\Users\admin\RiderProjects\Project Orion\Project Orion\bin\Debug\net7.0-windows\runtimes\osx-x64\native\libgdiplus.dylib
+C:\Users\admin\RiderProjects\Project Orion\Project Orion\bin\Debug\net7.0-windows\runtimes\osx-x64\native\libgif.7.dylib
+C:\Users\admin\RiderProjects\Project Orion\Project Orion\bin\Debug\net7.0-windows\runtimes\osx-x64\native\libglib-2.0.0.dylib
+C:\Users\admin\RiderProjects\Project Orion\Project Orion\bin\Debug\net7.0-windows\runtimes\osx-x64\native\libintl.8.dylib
+C:\Users\admin\RiderProjects\Project Orion\Project Orion\bin\Debug\net7.0-windows\runtimes\osx-x64\native\libjpeg.9.dylib
+C:\Users\admin\RiderProjects\Project Orion\Project Orion\bin\Debug\net7.0-windows\runtimes\osx-x64\native\libpcre.1.dylib
+C:\Users\admin\RiderProjects\Project Orion\Project Orion\bin\Debug\net7.0-windows\runtimes\osx-x64\native\libpixman-1.0.dylib
+C:\Users\admin\RiderProjects\Project Orion\Project Orion\bin\Debug\net7.0-windows\runtimes\osx-x64\native\libpng16.16.dylib
+C:\Users\admin\RiderProjects\Project Orion\Project Orion\bin\Debug\net7.0-windows\runtimes\osx-x64\native\libtiff.5.dylib
+C:\Users\admin\RiderProjects\Project Orion\Project Orion\obj\Debug\net7.0-windows\Project Orion.csproj.AssemblyReference.cache
+C:\Users\admin\RiderProjects\Project Orion\Project Orion\obj\Debug\net7.0-windows\Project Orion.csproj.CopyComplete
+C:\Users\admin\RiderProjects\Project Orion\Project Orion\bin\Debug\net7.0-windows\LiteNetLib.dll
+C:\Users\admin\RiderProjects\Project_Orion_Chess\Project Orion\bin\Debug\net7.0-windows\Project Orion.exe
+C:\Users\admin\RiderProjects\Project_Orion_Chess\Project Orion\bin\Debug\net7.0-windows\Project Orion.deps.json
+C:\Users\admin\RiderProjects\Project_Orion_Chess\Project Orion\bin\Debug\net7.0-windows\Project Orion.runtimeconfig.json
+C:\Users\admin\RiderProjects\Project_Orion_Chess\Project Orion\bin\Debug\net7.0-windows\Project Orion.dll
+C:\Users\admin\RiderProjects\Project_Orion_Chess\Project Orion\bin\Debug\net7.0-windows\Project Orion.pdb
+C:\Users\admin\RiderProjects\Project_Orion_Chess\Project Orion\bin\Debug\net7.0-windows\ExCSS.dll
+C:\Users\admin\RiderProjects\Project_Orion_Chess\Project Orion\bin\Debug\net7.0-windows\LiteNetLib.dll
+C:\Users\admin\RiderProjects\Project_Orion_Chess\Project Orion\bin\Debug\net7.0-windows\runtime.osx.10.10-x64.CoreCompat.System.Drawing.dll
+C:\Users\admin\RiderProjects\Project_Orion_Chess\Project Orion\bin\Debug\net7.0-windows\Svg.dll
+C:\Users\admin\RiderProjects\Project_Orion_Chess\Project Orion\bin\Debug\net7.0-windows\runtimes\osx-x64\native\libcairo.2.dylib
+C:\Users\admin\RiderProjects\Project_Orion_Chess\Project Orion\bin\Debug\net7.0-windows\runtimes\osx-x64\native\libfontconfig.1.dylib
+C:\Users\admin\RiderProjects\Project_Orion_Chess\Project Orion\bin\Debug\net7.0-windows\runtimes\osx-x64\native\libfreetype.6.dylib
+C:\Users\admin\RiderProjects\Project_Orion_Chess\Project Orion\bin\Debug\net7.0-windows\runtimes\osx-x64\native\libgdiplus-lighthouse.dylib
+C:\Users\admin\RiderProjects\Project_Orion_Chess\Project Orion\bin\Debug\net7.0-windows\runtimes\osx-x64\native\libgdiplus.dylib
+C:\Users\admin\RiderProjects\Project_Orion_Chess\Project Orion\bin\Debug\net7.0-windows\runtimes\osx-x64\native\libgif.7.dylib
+C:\Users\admin\RiderProjects\Project_Orion_Chess\Project Orion\bin\Debug\net7.0-windows\runtimes\osx-x64\native\libglib-2.0.0.dylib
+C:\Users\admin\RiderProjects\Project_Orion_Chess\Project Orion\bin\Debug\net7.0-windows\runtimes\osx-x64\native\libintl.8.dylib
+C:\Users\admin\RiderProjects\Project_Orion_Chess\Project Orion\bin\Debug\net7.0-windows\runtimes\osx-x64\native\libjpeg.9.dylib
+C:\Users\admin\RiderProjects\Project_Orion_Chess\Project Orion\bin\Debug\net7.0-windows\runtimes\osx-x64\native\libpcre.1.dylib
+C:\Users\admin\RiderProjects\Project_Orion_Chess\Project Orion\bin\Debug\net7.0-windows\runtimes\osx-x64\native\libpixman-1.0.dylib
+C:\Users\admin\RiderProjects\Project_Orion_Chess\Project Orion\bin\Debug\net7.0-windows\runtimes\osx-x64\native\libpng16.16.dylib
+C:\Users\admin\RiderProjects\Project_Orion_Chess\Project Orion\bin\Debug\net7.0-windows\runtimes\osx-x64\native\libtiff.5.dylib
+C:\Users\admin\RiderProjects\Project_Orion_Chess\Project Orion\obj\Debug\net7.0-windows\Project Orion.csproj.AssemblyReference.cache
+C:\Users\admin\RiderProjects\Project_Orion_Chess\Project Orion\obj\Debug\net7.0-windows\Project Orion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\RiderProjects\Project_Orion_Chess\Project Orion\obj\Debug\net7.0-windows\Project Orion.AssemblyInfoInputs.cache
+C:\Users\admin\RiderProjects\Project_Orion_Chess\Project Orion\obj\Debug\net7.0-windows\Project Orion.AssemblyInfo.cs
+C:\Users\admin\RiderProjects\Project_Orion_Chess\Project Orion\obj\Debug\net7.0-windows\Project Orion.csproj.CoreCompileInputs.cache
+C:\Users\admin\RiderProjects\Project_Orion_Chess\Project Orion\obj\Debug\net7.0-windows\Project Orion.csproj.CopyComplete
+C:\Users\admin\RiderProjects\Project_Orion_Chess\Project Orion\obj\Debug\net7.0-windows\Project Orion.dll
+C:\Users\admin\RiderProjects\Project_Orion_Chess\Project Orion\obj\Debug\net7.0-windows\refint\Project Orion.dll
+C:\Users\admin\RiderProjects\Project_Orion_Chess\Project Orion\obj\Debug\net7.0-windows\Project Orion.pdb
+C:\Users\admin\RiderProjects\Project_Orion_Chess\Project Orion\obj\Debug\net7.0-windows\Project Orion.genruntimeconfig.cache
+C:\Users\admin\RiderProjects\Project_Orion_Chess\Project Orion\obj\Debug\net7.0-windows\ref\Project Orion.dll
+C:\Users\admin\RiderProjects\Project_Orion_Chess\Project Orion\bin\Debug\net7.0-windows\Vanara.Core.dll
+C:\Users\admin\RiderProjects\Project_Orion_Chess\Project Orion\bin\Debug\net7.0-windows\Vanara.PInvoke.Cryptography.dll
+C:\Users\admin\RiderProjects\Project_Orion_Chess\Project Orion\bin\Debug\net7.0-windows\Vanara.PInvoke.Kernel32.dll
+C:\Users\admin\RiderProjects\Project_Orion_Chess\Project Orion\bin\Debug\net7.0-windows\Vanara.PInvoke.P2P.dll
+C:\Users\admin\RiderProjects\Project_Orion_Chess\Project Orion\bin\Debug\net7.0-windows\Vanara.PInvoke.Security.dll
+C:\Users\admin\RiderProjects\Project_Orion_Chess\Project Orion\bin\Debug\net7.0-windows\Vanara.PInvoke.Shared.dll
+C:\Users\admin\RiderProjects\Project_Orion_Chess\Project Orion\bin\Debug\net7.0-windows\Vanara.PInvoke.Ws2_32.dll
+C:\Users\admin\RiderProjects\Project_Orion_Chess\Project Orion\bin\Debug\net7.0-windows\fr\Vanara.Core.resources.dll
+C:\Users\admin\RiderProjects\Project_Orion_Chess\Project Orion\obj\Debug\net7.0-windows\Project_Orion.GetIPForm.resources
+C:\Users\admin\RiderProjects\Project_Orion_Chess\Project Orion\obj\Debug\net7.0-windows\Project Orion.csproj.GenerateResource.cache
+C:\Users\admin\RiderProjects\Project_Orion_Chess_Server\Project Orion\bin\Debug\net7.0-windows\Project Orion.exe
+C:\Users\admin\RiderProjects\Project_Orion_Chess_Server\Project Orion\bin\Debug\net7.0-windows\Project Orion.deps.json
+C:\Users\admin\RiderProjects\Project_Orion_Chess_Server\Project Orion\bin\Debug\net7.0-windows\Project Orion.runtimeconfig.json
+C:\Users\admin\RiderProjects\Project_Orion_Chess_Server\Project Orion\bin\Debug\net7.0-windows\Project Orion.dll
+C:\Users\admin\RiderProjects\Project_Orion_Chess_Server\Project Orion\bin\Debug\net7.0-windows\Project Orion.pdb
+C:\Users\admin\RiderProjects\Project_Orion_Chess_Server\Project Orion\bin\Debug\net7.0-windows\ExCSS.dll
+C:\Users\admin\RiderProjects\Project_Orion_Chess_Server\Project Orion\bin\Debug\net7.0-windows\LiteNetLib.dll
+C:\Users\admin\RiderProjects\Project_Orion_Chess_Server\Project Orion\bin\Debug\net7.0-windows\runtime.osx.10.10-x64.CoreCompat.System.Drawing.dll
+C:\Users\admin\RiderProjects\Project_Orion_Chess_Server\Project Orion\bin\Debug\net7.0-windows\Svg.dll
+C:\Users\admin\RiderProjects\Project_Orion_Chess_Server\Project Orion\bin\Debug\net7.0-windows\Vanara.Core.dll
+C:\Users\admin\RiderProjects\Project_Orion_Chess_Server\Project Orion\bin\Debug\net7.0-windows\Vanara.PInvoke.Cryptography.dll
+C:\Users\admin\RiderProjects\Project_Orion_Chess_Server\Project Orion\bin\Debug\net7.0-windows\Vanara.PInvoke.Kernel32.dll
+C:\Users\admin\RiderProjects\Project_Orion_Chess_Server\Project Orion\bin\Debug\net7.0-windows\Vanara.PInvoke.P2P.dll
+C:\Users\admin\RiderProjects\Project_Orion_Chess_Server\Project Orion\bin\Debug\net7.0-windows\Vanara.PInvoke.Security.dll
+C:\Users\admin\RiderProjects\Project_Orion_Chess_Server\Project Orion\bin\Debug\net7.0-windows\Vanara.PInvoke.Shared.dll
+C:\Users\admin\RiderProjects\Project_Orion_Chess_Server\Project Orion\bin\Debug\net7.0-windows\Vanara.PInvoke.Ws2_32.dll
+C:\Users\admin\RiderProjects\Project_Orion_Chess_Server\Project Orion\bin\Debug\net7.0-windows\fr\Vanara.Core.resources.dll
+C:\Users\admin\RiderProjects\Project_Orion_Chess_Server\Project Orion\bin\Debug\net7.0-windows\runtimes\osx-x64\native\libcairo.2.dylib
+C:\Users\admin\RiderProjects\Project_Orion_Chess_Server\Project Orion\bin\Debug\net7.0-windows\runtimes\osx-x64\native\libfontconfig.1.dylib
+C:\Users\admin\RiderProjects\Project_Orion_Chess_Server\Project Orion\bin\Debug\net7.0-windows\runtimes\osx-x64\native\libfreetype.6.dylib
+C:\Users\admin\RiderProjects\Project_Orion_Chess_Server\Project Orion\bin\Debug\net7.0-windows\runtimes\osx-x64\native\libgdiplus-lighthouse.dylib
+C:\Users\admin\RiderProjects\Project_Orion_Chess_Server\Project Orion\bin\Debug\net7.0-windows\runtimes\osx-x64\native\libgdiplus.dylib
+C:\Users\admin\RiderProjects\Project_Orion_Chess_Server\Project Orion\bin\Debug\net7.0-windows\runtimes\osx-x64\native\libgif.7.dylib
+C:\Users\admin\RiderProjects\Project_Orion_Chess_Server\Project Orion\bin\Debug\net7.0-windows\runtimes\osx-x64\native\libglib-2.0.0.dylib
+C:\Users\admin\RiderProjects\Project_Orion_Chess_Server\Project Orion\bin\Debug\net7.0-windows\runtimes\osx-x64\native\libintl.8.dylib
+C:\Users\admin\RiderProjects\Project_Orion_Chess_Server\Project Orion\bin\Debug\net7.0-windows\runtimes\osx-x64\native\libjpeg.9.dylib
+C:\Users\admin\RiderProjects\Project_Orion_Chess_Server\Project Orion\bin\Debug\net7.0-windows\runtimes\osx-x64\native\libpcre.1.dylib
+C:\Users\admin\RiderProjects\Project_Orion_Chess_Server\Project Orion\bin\Debug\net7.0-windows\runtimes\osx-x64\native\libpixman-1.0.dylib
+C:\Users\admin\RiderProjects\Project_Orion_Chess_Server\Project Orion\bin\Debug\net7.0-windows\runtimes\osx-x64\native\libpng16.16.dylib
+C:\Users\admin\RiderProjects\Project_Orion_Chess_Server\Project Orion\bin\Debug\net7.0-windows\runtimes\osx-x64\native\libtiff.5.dylib
+C:\Users\admin\RiderProjects\Project_Orion_Chess_Server\Project Orion\obj\Debug\net7.0-windows\Project Orion.csproj.AssemblyReference.cache
+C:\Users\admin\RiderProjects\Project_Orion_Chess_Server\Project Orion\obj\Debug\net7.0-windows\Project_Orion.GetIpForm.resources
+C:\Users\admin\RiderProjects\Project_Orion_Chess_Server\Project Orion\obj\Debug\net7.0-windows\Project Orion.csproj.GenerateResource.cache
+C:\Users\admin\RiderProjects\Project_Orion_Chess_Server\Project Orion\obj\Debug\net7.0-windows\Project Orion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\RiderProjects\Project_Orion_Chess_Server\Project Orion\obj\Debug\net7.0-windows\Project Orion.AssemblyInfoInputs.cache
+C:\Users\admin\RiderProjects\Project_Orion_Chess_Server\Project Orion\obj\Debug\net7.0-windows\Project Orion.AssemblyInfo.cs
+C:\Users\admin\RiderProjects\Project_Orion_Chess_Server\Project Orion\obj\Debug\net7.0-windows\Project Orion.csproj.CoreCompileInputs.cache
+C:\Users\admin\RiderProjects\Project_Orion_Chess_Server\Project Orion\obj\Debug\net7.0-windows\Project Orion.csproj.CopyComplete
+C:\Users\admin\RiderProjects\Project_Orion_Chess_Server\Project Orion\obj\Debug\net7.0-windows\Project Orion.dll
+C:\Users\admin\RiderProjects\Project_Orion_Chess_Server\Project Orion\obj\Debug\net7.0-windows\refint\Project Orion.dll
+C:\Users\admin\RiderProjects\Project_Orion_Chess_Server\Project Orion\obj\Debug\net7.0-windows\Project Orion.pdb
+C:\Users\admin\RiderProjects\Project_Orion_Chess_Server\Project Orion\obj\Debug\net7.0-windows\Project Orion.genruntimeconfig.cache
+C:\Users\admin\RiderProjects\Project_Orion_Chess_Server\Project Orion\obj\Debug\net7.0-windows\ref\Project Orion.dll

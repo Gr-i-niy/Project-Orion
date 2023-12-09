@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "u7mg2kahENpaKdvcudBuVW20ofWpBc45e78n3/V5GHWQ7+7i4IphWxIy8ifHNvnefKcpwKo7MHgLup+jhr/oWQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\admin\\RiderProjects\\Project_Orion\\Server\\Server.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\admin\\.nuget\\packages\\excss\\4.2.3\\excss.4.2.3.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\runtime.osx.10.10-x64.corecompat.system.drawing\\5.8.64\\runtime.osx.10.10-x64.corecompat.system.drawing.5.8.64.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\svg\\3.4.6\\svg.3.4.6.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\system.drawing.common\\5.0.3\\system.drawing.common.5.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

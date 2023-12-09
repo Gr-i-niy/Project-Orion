@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net7.0-windows</TargetFramework>
+        <RootNamespace>Project_Orion</RootNamespace>
+        <Nullable>enable</Nullable>
+        <UseWindowsForms>true</UseWindowsForms>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="LiteNetLib" Version="1.1.0" />
+      <PackageReference Include="Svg" Version="3.4.5" />
+      <PackageReference Include="Vanara.PInvoke.P2P" Version="3.4.17" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Update="GetIPForm.cs">
+        <SubType>Form</SubType>
+      </Compile>
+    </ItemGroup>
+
+</Project>
