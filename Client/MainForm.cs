@@ -101,6 +101,17 @@ public partial class MainForm : Form
     {
         SvgDocument svgDocument = 
             SvgDocument.Open(Application.StartupPath + @"\Assets\grey_circle.svg");
+        foreach (var i in GlobalVariables.BlackChessPieces)
+        {
+            if (i is not King) continue;
+            for (var j = 0; j < nextMoves.Count; j++)
+            {
+                if (nextMoves[j] != i.Pos) continue;
+                nextMoves.RemoveAt(j);
+                break;
+            }
+            break;
+        }
         GlobalVariables.LastPossibleMoves = nextMoves;
         foreach (var pos in nextMoves)
         {

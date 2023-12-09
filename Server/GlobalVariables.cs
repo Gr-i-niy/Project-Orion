@@ -23,7 +23,6 @@ public static class GlobalVariables
         new Bishop(0, 0, FigureColor.Black),
         new Knight(0, 0, FigureColor.Black),
         new Rook(0, 0, FigureColor.Black)};
-    
 
     public static List<ChessPiece> ChoppedWhiteChessPieces = new(15);
     public static List<ChessPiece> ChoppedBlackChessPieces = new(15);
@@ -37,4 +36,5 @@ public static class GlobalVariables
 
     public static string UserIp = "";
     public static bool FlActive = true;
+    public static bool FlCheck = false;
 }
