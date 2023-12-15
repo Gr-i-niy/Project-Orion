@@ -57,9 +57,8 @@ namespace Client
                     byte[] data = Encoding.ASCII.GetBytes(pos1.ToString() + " " + pos2.ToString());
                     _stream.Write(data, 0, data.Length);
                 }
-                catch (Exception ex)
+                finally
                 {
-                    throw new Exception("Failed to send pairs to the client.", ex);
                 }
             }
             
@@ -86,9 +85,8 @@ namespace Client
                     return (new Position(int.Parse(message[0]), int.Parse(message[1])),
                         new Position(int.Parse(message[2]), int.Parse(message[3])));
                 }
-                catch (Exception ex)
+                finally
                 {
-                    throw new Exception("Failed to receive pairs from the server.", ex);
                 }
             }
             

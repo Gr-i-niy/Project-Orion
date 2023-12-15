@@ -1,4 +1,5 @@
-﻿using Svg;
+﻿using Server.Figures;
+using Svg;
 
 namespace Server;
 
@@ -26,6 +27,10 @@ public static class GlobalVariables
 
     public static List<ChessPiece> ChoppedWhiteChessPieces = new(15);
     public static List<ChessPiece> ChoppedBlackChessPieces = new(15);
+    
+    public static bool CheckWhite = false;
+    public static Position Checker = new(0, 0);
+    public static bool CheckBlack = false;
 
     public static List<Button> ChessBoardButtons = new(64);
     public static List<SvgDocument> ChessBoardButtonsImages = new(64);

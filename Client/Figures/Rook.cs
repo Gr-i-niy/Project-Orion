@@ -1,6 +1,6 @@
 ﻿using Svg;
 
-namespace Client;
+namespace Client.Figures;
 
 public class Rook: ChessPiece
 {
@@ -31,13 +31,24 @@ public class Rook: ChessPiece
     
     public override List<Position> NextMove()
     {
+        List<ChessPiece> allyFigure, enemyFigure;
+        if (this.ChessPieceColor == FigureColor.White)
+        {
+            allyFigure = GlobalVariables.WhiteChessPieces;
+            enemyFigure = GlobalVariables.BlackChessPieces;
+        }
+        else
+        {
+            allyFigure = GlobalVariables.BlackChessPieces;
+            enemyFigure = GlobalVariables.WhiteChessPieces;
+        }
         List<Position> nextMoves = new();
         
         var positionUp = new Position(this.Pos.X, this.Pos.Y + 1);
         var positionLeft = new Position(this.Pos.X - 1, this.Pos.Y);
         while (positionUp.Y < 8 || positionLeft.X > -1)
         {
-            foreach (var figure in GlobalVariables.WhiteChessPieces)
+            foreach (var figure in allyFigure)
             {
                 if (positionUp == figure.Pos)
                     positionUp.Y += 1000;
@@ -49,7 +60,7 @@ public class Rook: ChessPiece
             if (positionLeft.X > -1)
                 nextMoves.Add(new Position(positionLeft.X, positionLeft.Y));
             
-            foreach (var figure in GlobalVariables.BlackChessPieces)
+            foreach (var figure in enemyFigure)
             {
                 if (positionUp == figure.Pos)
                     positionUp.Y += 1000;
@@ -64,7 +75,7 @@ public class Rook: ChessPiece
         var positionRight = new Position(this.Pos.X + 1, this.Pos.Y);
         while (positionDown.Y > -1 || positionRight.X < 8)
         {
-            foreach (var figure in GlobalVariables.WhiteChessPieces)
+            foreach (var figure in allyFigure)
             {
                 if (positionDown == figure.Pos)
                     positionDown.Y -= 1000;
@@ -78,7 +89,7 @@ public class Rook: ChessPiece
             if (positionRight.X < 8)
                 nextMoves.Add(new Position(positionRight.X, positionRight.Y));
 
-            foreach (var figure in GlobalVariables.BlackChessPieces)
+            foreach (var figure in enemyFigure)
             {
                 if (positionDown == figure.Pos)
                     positionDown.Y -= 1000;

@@ -1,6 +1,6 @@
 ﻿using Svg;
 
-namespace Server;
+namespace Server.Figures;
 
 public class Pawn: ChessPiece
 {
@@ -29,11 +29,22 @@ public class Pawn: ChessPiece
         this.Pos.Y = pos.Y;
         _moved = true;
     }
-
+    
     public override List<Position> NextMove()
     {
-        List<Position> possibleMoves = new();
         List<Position> nextMoves = new();
+        if (this.ChessPieceColor == FigureColor.Black)
+        {
+            foreach (var figure in GlobalVariables.WhiteChessPieces)
+            {
+                if (figure.Pos == new Position(this.Pos.X + 1, this.Pos.Y + 1))
+                    nextMoves.Add(new Position(this.Pos.X + 1, this.Pos.Y + 1));
+                if (figure.Pos == new Position(this.Pos.X - 1, this.Pos.Y + 1))
+                    nextMoves.Add(new Position(this.Pos.X - 1, this.Pos.Y + 1));
+            }
+            return nextMoves;
+        }
+        List<Position> possibleMoves = new();
         if (this.Pos.Y == 0)
             return nextMoves;
         if (!_moved)
@@ -72,6 +83,30 @@ public class Pawn: ChessPiece
                 possibleMoves.RemoveAt(1);
         }
         nextMoves.AddRange(possibleMoves);
+        return nextMoves;
+    }
+    
+    public override List<Position> NextMoveNoAlly()
+    {
+        List<Position> nextMoves = new();
+        if (this.ChessPieceColor == FigureColor.Black)
+        {
+            foreach (var figure in GlobalVariables.WhiteChessPieces)
+            {
+                if (figure.Pos == new Position(this.Pos.X + 1, this.Pos.Y + 1))
+                    nextMoves.Add(new Position(this.Pos.X + 1, this.Pos.Y + 1));
+                if (figure.Pos == new Position(this.Pos.X - 1, this.Pos.Y + 1))
+                    nextMoves.Add(new Position(this.Pos.X - 1, this.Pos.Y + 1));
+            }
+            return nextMoves;
+        }
+        foreach (var figure in GlobalVariables.BlackChessPieces)
+        {
+            if (figure.Pos == new Position(this.Pos.X + 1, this.Pos.Y - 1))
+                nextMoves.Add(new Position(this.Pos.X + 1, this.Pos.Y - 1));
+            if (figure.Pos == new Position(this.Pos.X - 1, this.Pos.Y - 1))
+                nextMoves.Add(new Position(this.Pos.X - 1, this.Pos.Y - 1));
+        }
         return nextMoves;
     }
 }

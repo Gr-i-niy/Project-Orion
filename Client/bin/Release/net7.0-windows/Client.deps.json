@@ -6,12 +6,12 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v7.0": {
-      "Server/1.0.0": {
+      "Client/1.0.0": {
         "dependencies": {
-          "Svg": "3.4.6"
+          "Svg": "3.4.5"
         },
         "runtime": {
-          "Server.dll": {}
+          "Client.dll": {}
         }
       },
       "ExCSS/4.2.3": {
@@ -103,7 +103,7 @@
           }
         }
       },
-      "Svg/3.4.6": {
+      "Svg/3.4.5": {
         "dependencies": {
           "ExCSS": "4.2.3",
           "System.Drawing.Common": "5.0.3",
@@ -112,7 +112,7 @@
         "runtime": {
           "lib/net6.0/Svg.dll": {
             "assemblyVersion": "3.4.0.0",
-            "fileVersion": "3.4.6.1"
+            "fileVersion": "3.4.5.1"
           }
         }
       },
@@ -124,7 +124,7 @@
     }
   },
   "libraries": {
-    "Server/1.0.0": {
+    "Client/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -157,12 +157,12 @@
       "path": "runtime.osx.10.10-x64.corecompat.system.drawing/5.8.64",
       "hashPath": "runtime.osx.10.10-x64.corecompat.system.drawing.5.8.64.nupkg.sha512"
     },
-    "Svg/3.4.6": {
+    "Svg/3.4.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Ko+N0trUmAy8Hu7vlWnh6FJ5ysyFD/5S1ymLKAZMqB+pmrC//0A8vbzWdbQl5kJbGLl5GLidREnl4QY0NFM/rA==",
-      "path": "svg/3.4.6",
-      "hashPath": "svg.3.4.6.nupkg.sha512"
+      "sha512": "sha512-PJ5WBUhzLnrZQNuZs9CN2wEo470Htv8zs/li5jEyQyQTtSOgwgrCpvN2JAs8Gff8NgtSLeiN8jaudL0Q66/dQw==",
+      "path": "svg/3.4.5",
+      "hashPath": "svg.3.4.5.nupkg.sha512"
     },
     "System.Drawing.Common/5.0.3": {
       "type": "package",

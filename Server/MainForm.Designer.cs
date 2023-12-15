@@ -1,4 +1,5 @@
-﻿using Svg;
+﻿using Server.Figures;
+using Svg;
 
 namespace Server;
 

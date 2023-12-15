@@ -1,6 +1,6 @@
 ﻿using Svg;
 
-namespace Server;
+namespace Server.Figures;
 
 public abstract class ChessPiece
 {
@@ -34,6 +34,11 @@ public abstract class ChessPiece
     }
 
     public virtual List<Position> NextMove()
+    {
+        return new List<Position>();
+    }
+    
+    public virtual List<Position> NextMoveNoAlly()
     {
         return new List<Position>();
     }

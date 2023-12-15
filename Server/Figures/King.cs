@@ -1,6 +1,6 @@
 ﻿using Svg;
 
-namespace Server;
+namespace Server.Figures;
 
 public class King: ChessPiece
 {
@@ -10,6 +10,7 @@ public class King: ChessPiece
     {
         Pos = new Position(x, y);
         _moved = false;
+        ChessPieceColor = color;
         if (color == FigureColor.Black)
             Image = SvgDocument.Open(Application.StartupPath + @"\Assets\white_king.svg");
         else
@@ -30,6 +31,11 @@ public class King: ChessPiece
     }
     public override List<Position> NextMove()
     {
+        List<ChessPiece> allyFigure;
+        if (this.ChessPieceColor == FigureColor.White)
+            allyFigure = GlobalVariables.WhiteChessPieces;
+        else
+            allyFigure = GlobalVariables.BlackChessPieces;
         List<Position> nextMoves = new();
         for (int i = -1; i < 2; i++)
         {
@@ -39,7 +45,7 @@ public class King: ChessPiece
                 {
                     var fl = false;
                     var pos = new Position(this.Pos.X + i, this.Pos.Y + j);
-                    foreach (var figure in GlobalVariables.WhiteChessPieces)
+                    foreach (var figure in allyFigure)
                     {
                         if (figure.Pos == pos)
                         {

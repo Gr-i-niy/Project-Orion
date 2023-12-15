@@ -1,6 +1,6 @@
 ﻿using Svg;
 
-namespace Client;
+namespace Client.Figures;
 
 public class Bishop: ChessPiece
 {
@@ -17,12 +17,22 @@ public class Bishop: ChessPiece
     public override List<Position> NextMove()
     {
         List<Position> nextMoves = new();
-        
+        List<ChessPiece> allyFigure, enemyFigure;
+        if (this.ChessPieceColor == FigureColor.White)
+        {
+            allyFigure = GlobalVariables.WhiteChessPieces;
+            enemyFigure = GlobalVariables.BlackChessPieces;
+        }
+        else
+        {
+            allyFigure = GlobalVariables.BlackChessPieces;
+            enemyFigure = GlobalVariables.WhiteChessPieces;
+        }
         var positionSide = new Position(this.Pos.X + 1, this.Pos.Y + 1);
         var positionMain = new Position(this.Pos.X - 1, this.Pos.Y + 1);
         while (positionSide is { X: < 8, Y: < 8 } || positionMain is { X: > -1, Y: < 8 })
         {
-            foreach (var figure in GlobalVariables.WhiteChessPieces)
+            foreach (var figure in allyFigure)
             {
                 if (positionSide == figure.Pos)
                     positionSide.Y += 1000;
@@ -35,7 +45,7 @@ public class Bishop: ChessPiece
             if (positionMain is { X: > -1, Y: < 8 })
                 nextMoves.Add(new Position(positionMain.X, positionMain.Y));
             
-            foreach (var figure in GlobalVariables.BlackChessPieces)
+            foreach (var figure in enemyFigure)
             {
                 if (positionSide == figure.Pos)
                     positionSide.Y += 1000;
@@ -52,7 +62,7 @@ public class Bishop: ChessPiece
         positionMain = new Position(this.Pos.X - 1, this.Pos.Y - 1);
         while (positionSide is { X: < 8, Y: > -1 } || positionMain is { X: > -1, Y: > -1 })
         {
-            foreach (var figure in GlobalVariables.WhiteChessPieces)
+            foreach (var figure in allyFigure)
             {
                 if (positionSide == figure.Pos)
                     positionSide.Y -= 1000;
@@ -64,7 +74,7 @@ public class Bishop: ChessPiece
             if (positionMain is { X: > -1, Y: > -1 })
                 nextMoves.Add(new Position(positionMain.X, positionMain.Y));
             
-            foreach (var figure in GlobalVariables.BlackChessPieces)
+            foreach (var figure in enemyFigure)
             {
                 if (positionSide == figure.Pos)
                     positionSide.Y -= 1000;

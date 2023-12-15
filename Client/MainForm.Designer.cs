@@ -1,4 +1,5 @@
-﻿using Svg;
+﻿using Client.Figures;
+using Svg;
 
 namespace Client;
 

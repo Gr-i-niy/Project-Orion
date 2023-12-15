@@ -1,6 +1,6 @@
 ﻿using Svg;
 
-namespace Client;
+namespace Client.Figures;
 
 public class Pawn: ChessPiece
 {
@@ -32,8 +32,19 @@ public class Pawn: ChessPiece
 
     public override List<Position> NextMove()
     {
-        List<Position> possibleMoves = new();
         List<Position> nextMoves = new();
+        if (this.ChessPieceColor == FigureColor.Black)
+        {
+            foreach (var figure in GlobalVariables.WhiteChessPieces)
+            {
+                if (figure.Pos == new Position(this.Pos.X + 1, this.Pos.Y + 1))
+                    nextMoves.Add(new Position(this.Pos.X + 1, this.Pos.Y + 1));
+                if (figure.Pos == new Position(this.Pos.X - 1, this.Pos.Y + 1))
+                    nextMoves.Add(new Position(this.Pos.X - 1, this.Pos.Y + 1));
+            }
+            return nextMoves;
+        }
+        List<Position> possibleMoves = new();
         if (this.Pos.Y == 0)
             return nextMoves;
         if (!_moved)

@@ -1,6 +1,6 @@
 ﻿using Svg;
 
-namespace Client;
+namespace Client.Figures;
 
 public abstract class ChessPiece
 {

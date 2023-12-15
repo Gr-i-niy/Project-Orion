@@ -1,4 +1,5 @@
-﻿using Svg;
+﻿using Client.Figures;
+using Svg;
 
 namespace Client;
 
@@ -7,6 +8,7 @@ public class Knight: ChessPiece
     public Knight(int x, int y, FigureColor color): base(x, y, color)
     {
         Pos = new Position(x, y);
+        ChessPieceColor = color;
         if (color == FigureColor.White)
             Image = SvgDocument.Open(Application.StartupPath + @"\Assets\white_knight.svg");
         else
@@ -15,6 +17,11 @@ public class Knight: ChessPiece
 
     public override List<Position> NextMove()
     {
+        List<ChessPiece> allyFigure;
+        if (this.ChessPieceColor == FigureColor.White)
+            allyFigure = GlobalVariables.WhiteChessPieces;
+        else
+            allyFigure = GlobalVariables.BlackChessPieces;
         List<Position> nextMoves = new();
         for (int i = -2; i < 3; i++)
         {
@@ -26,7 +33,7 @@ public class Knight: ChessPiece
                 {
                     var fl = false;
                     var pos = new Position(this.Pos.X + i, this.Pos.Y + j);
-                    foreach (var figure in GlobalVariables.WhiteChessPieces)
+                    foreach (var figure in allyFigure)
                     {
                         if (figure.Pos == pos)
                         {
